@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# AI model weights (YOLO etc.)
+models/*.pt
+models/*.onnx
+models/*.engine
+
+# Temporary files created during PDF → Image → OCR
+temp/
+tmp/
+*.png
+*.jpg
+*.jpeg
+
+# Sample PDFs used for testing
+data/
+*.pdf
+
+# Output files
+sample_output/
+result.json
+
+# Debug outputs
+debug/
