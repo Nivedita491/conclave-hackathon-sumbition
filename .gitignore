@@ -220,7 +220,7 @@ tmp/
 
 # Sample PDFs used for testing
 data/
-*.pdf
+!data/.gitkeep
 
 # Output files
 sample_output/
